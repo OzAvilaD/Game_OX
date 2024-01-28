@@ -1,0 +1,85 @@
+
+body{
+    background: ghostwhite;
+    color: dimgray;
+    font-family: serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+#container{
+    margin: 5% auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(184, 184, 255);
+    border: 2px solid white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.top {
+    border-top: none;
+}
+
+.left {
+    border-top: none;
+}
+
+.right {
+    border-top: none;
+}
+
+.botton {
+    border-top: none;
+}
+
+span{
+    position: absolute;
+    font-size: 75px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    padding: 0;
+    margin: 5px;
+    margin-left: -35px;
+}
+
+button{
+    background: dimgray;
+    border-radius: 2px;
+    color: ghostwhite;
+    border: none;
+    outline: none;
+}
+
+button:focus{
+    background: silver;
+}
+
+.activeBox{
+    background: silver;
+}
+
+@keyframes larger{
+    from{
+        height: 75px;
+        width: 125px;
+    }
+
+    to{
+        height: 100px;
+        width: 250px;
+    }
+
+}
